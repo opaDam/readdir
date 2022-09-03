@@ -31,6 +31,6 @@
             //   console.log(js_data_array);
         </script>
         <script defer src="./js/script.js"></script>
-        <footer id="footer"><span class="copyright">&copy; copyright </span> OpaD@m 2022</footer>
+        <footer id="footer"><span class="copyright">&copy; copyright </span> OpaD@m 2022 <span> https://opadam.github.io/readdir/index.php</span></footer>
 </body>
 </html>
