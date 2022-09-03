@@ -6,9 +6,14 @@ body{
     list-style: none;
 }
 
+ul{
+    width: 600px;
+}
+
 li {
     display: flex;
     text-align: center;
+    justify-content: start;
     border: 1px solid;
     border-radius: 5px;
     margin: 2.5px;
@@ -26,21 +31,16 @@ a {
     margin: 2px 0 2px 10px;  
 }
 
-#footer {
-    position: relative;
-    bottom: 0;
-}
-
 li:hover {
     background-color: coral;
     color: whitesmoke;
 }
 
 .playing{
-    /* padding: 0 3px 0 3px; */
-    /* border-radius: 5px; */
+    padding: 0 3px 0 3px;
+    border-radius: 5px;
     background-color: coral;
-    /* color: whitesmoke; */
+    color: whitesmoke;
 }
 img{
     justify-content: left;
@@ -49,4 +49,10 @@ img{
     margin: 3px;
     border: 1px solid;
     border-radius: 3px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    margin: 10px;
 }

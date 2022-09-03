@@ -1,6 +1,6 @@
 const list = document.querySelector('.list');
 const li = document.querySelectorAll("li");
-
+console.log(li[0]);
 const audio = new Audio();
 console.log(js_data_array);
 let song_name, song_path, temp_toggle;
